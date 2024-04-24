@@ -1,0 +1,10 @@
+ {% extends 'theme.html'%}
+ {% block content%}  
+
+
+{% for  products in products%}
+<li>{{products.name}}</li>
+<li>{{products.price}}</li>
+
+{% endfor %}
+{% endblock%}
